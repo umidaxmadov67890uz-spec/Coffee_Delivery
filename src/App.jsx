@@ -1,5 +1,5 @@
 import {Route, Routes } from "react-router-dom"
-import Laout from "./pages/laout"
+import Laout from "./pages/Laout"
 import HomePage from "./pages/home/HomePage"
 import MyFavoritesPage from "./pages/my-favorites/MyFavoritesPage"
 import CartPege from "./pages/basket/CartPege"
