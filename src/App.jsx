@@ -2,8 +2,8 @@ import {Route, Routes } from "react-router-dom"
 import Laout from "./pages/Laout"
 import HomePage from "./pages/home/HomePage"
 import MyFavoritesPage from "./pages/my-favorites/MyFavoritesPage"
-import CartPege from "./pages/basket/CartPege"
 import FormPage from "./pages/form/FormPage"
+import CartPage from "./pages/basket/CartPage"
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route element={<Laout/>}>
           <Route index element={<HomePage/>} />
           <Route path="/my-favorites" element={<MyFavoritesPage/>} />
-          <Route path="/cart" element={<CartPege/>} />
+          <Route path="/cart" element={<CartPage />} />
         </Route>
         <Route path="/form" element={<FormPage />} />
       </Routes>

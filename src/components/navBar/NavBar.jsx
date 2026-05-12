@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaBookmark, FaHome } from 'react-icons/fa'
 import { MdLocalGroceryStore } from 'react-icons/md'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function NavBar() {
   return (
