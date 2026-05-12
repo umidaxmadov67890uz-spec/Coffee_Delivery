@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { DataContext } from '../../context/CardContext'
 import { Link } from 'react-router-dom'
-import Descriptions from '../description/descriptions'
+import Descriptions from '../description/Descriptions'
 import BasketCard from '../cards/BasketCard'
 
 function SelectedProducts() {
