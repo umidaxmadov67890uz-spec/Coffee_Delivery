@@ -67,7 +67,6 @@ function CardItem({el}) {
 }
 
 
-{/* <BsBookmarkFill /> */}
 
 
 export default CardItem

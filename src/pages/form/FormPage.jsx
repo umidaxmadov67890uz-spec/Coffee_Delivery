@@ -1,8 +1,8 @@
 import React from 'react'
-import Descriptions from '../../components/description/descriptions'
 import { Link } from 'react-router-dom'
 import { FaChevronLeft } from 'react-icons/fa'
 import Form from '../../components/form/Form'
+import Descriptions from '../../components/description/Descriptions'
 
 
 function FormPage() {
