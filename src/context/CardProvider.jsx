@@ -6,7 +6,7 @@ function CardProvider({ children }) {
     {
       name: "Expresso Tradicional",
       description: "O tradicional café feito com água quente e grãos moídos",
-      img: "./src/assets/images/card-img1.png",
+      img: "./public/card-img1.png",
       type: ["Tradicional"],
       price: 9.9,
       count: 0,
@@ -18,7 +18,7 @@ function CardProvider({ children }) {
     {
       name: "Expresso Americano",
       description: "Expresso diluído, menos intenso que o tradicional",
-      img: "./src/assets/images/card-img2.png",
+      img: "./public/card-img2.png",
       type: ["Tradicional"],
       price: 10.5,
       count: 0,
@@ -30,7 +30,7 @@ function CardProvider({ children }) {
     {
       name: "Expresso Cremoso",
       description: "Café expresso tradicional com espuma cremosa",
-      img: "./src/assets/images/card-img3.png",
+      img: "./public/card-img3.png",
       type: ["Tradicional"],
       price: 11.0,
       count: 0,
@@ -42,7 +42,7 @@ function CardProvider({ children }) {
     {
       name: "Expresso Gelado",
       description: "Bebida preparada com café expresso e cubos de gelo",
-      img: "./src/assets/images/card-img4.png",
+      img: "./public/card-img4.png",
       type: ["Tradicional", "Gelado"],
       price: 12.3,
       count: 0,
@@ -54,7 +54,7 @@ function CardProvider({ children }) {
     {
       name: "Café com Leite",
       description: "Meio a meio de expresso tradicional com leite vaporizado",
-      img: "./src/assets/images/card-img5.png",
+      img: "./public/card-img5.png",
       type: ["Tradicional", "Com leite"],
       price: 10.0,
       count: 0,
@@ -67,7 +67,7 @@ function CardProvider({ children }) {
       name: "Latte",
       description:
         "Uma dose de café expresso com o dobro de leite e espuma cremosa",
-      img: "./src/assets/images/card-img6.png",
+      img: "./public/card-img6.png",
       type: ["Tradicional", "Com leite"],
       price: 13.5,
       count: 0,
@@ -80,7 +80,7 @@ function CardProvider({ children }) {
       name: "Capuccino",
       description:
         "Bebida com canela feita de doses iguais de café, leite e espuma",
-      img: "./src/assets/images/card-img7.png",
+      img: "./public/card-img7.png",
       type: ["Tradicional", "Com leite"],
       price: 14.2,
       count: 0,
@@ -93,7 +93,7 @@ function CardProvider({ children }) {
       name: "Macchiato",
       description:
         "Café expresso misturado com um pouco de leite quente e espuma",
-      img: "./src/assets/images/card-img8.png",
+      img: "./public/card-img8.png",
       type: ["Tradicional", "Com leite"],
       price: 12.8,
       count: 0,
@@ -105,7 +105,7 @@ function CardProvider({ children }) {
     {
       name: "Mocaccino",
       description: "Café expresso com calda de chocolate, pouco leite e espuma",
-      img: "./src/assets/images/card-img9.png",
+      img: "./public/card-img9.png",
       type: ["Tradicional", "Com leite"],
       price: 15.0,
       count: 0,
@@ -118,7 +118,7 @@ function CardProvider({ children }) {
       name: "Chocolate Quente",
       description:
         "Bebida feita com chocolate dissolvido no leite quente e café",
-      img: "./src/assets/images/card-img10.png",
+      img: "./public/card-img10.png",
       type: ["Especial", "Com leite"],
       price: 11.7,
       count: 0,
@@ -131,7 +131,7 @@ function CardProvider({ children }) {
       name: "Cubano",
       description:
         "Drink gelado de café expresso com rum, creme de leite e hortelã",
-      img: "./src/assets/images/card-img11.png",
+      img: "./public/card-img11.png",
       type: ["Especial", "Alcoólico", "Gelado"],
       price: 18.9,
       count: 0,
@@ -143,7 +143,7 @@ function CardProvider({ children }) {
     {
       name: "Havaiano",
       description: "Bebida adocicada preparada com café e leite de coco",
-      img: "./src/assets/images/card-img12.png",
+      img: "./public/card-img12.png",
       type: ["Especial"],
       price: 13.3,
       count: 0,
@@ -155,7 +155,7 @@ function CardProvider({ children }) {
     {
       name: "Árabe",
       description: "Bebida preparada com grãos de café árabe e especiarias",
-      img: "./src/assets/images/card-img13.png",
+      img: "./public/card-img13.png",
       type: ["Especial"],
       price: 16.4,
       count: 0,
@@ -167,7 +167,7 @@ function CardProvider({ children }) {
     {
       name: "Irlandês",
       description: "Bebida a base de café, uísque irlandês, açúcar e chantilly",
-      img: "./src/assets/images/card-img14.png",
+      img: "./public/card-img14.png",
       type: ["Especial", "Alcoólico"],
       price: 19.5,
       count: 0,
